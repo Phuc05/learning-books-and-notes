@@ -56,6 +56,7 @@ plt.show()
 """
 
 # Code Implementation
+```
 sns.set_style('darkgrid')
 g = sns.FacetGrid(df, hue="Private", palette='coolwarm', height=6, aspect=2)  # Updated: size -> height
 g = g.map(plt.hist, 'Outstate', bins=20, alpha=0.7)
