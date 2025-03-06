@@ -39,8 +39,7 @@ g = sns.FacetGrid(df, hue="Private", palette='coolwarm', size=6, aspect=2)
 g = g.map(plt.hist, 'Outstate', bins=20, alpha=0.7)
 
 # Show the plot
-plt.show()
-```
+plt.show()```
 
 ### Expected Output:
 - A histogram where:
